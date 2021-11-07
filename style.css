@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 221, 221);
+}
+
+#container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0rem auto;
+    padding: 2rem 0rem;
+    background-color: rgb(226, 221, 221);
+}
+
+.header{
+    /* border: 1px solid; */
+    font-size: 1rem;
+    color: darkblue;
+}
+
+.main{
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightsteelblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 1rem;
+    width: 80%;
+    padding: 2rem ;
+    background-color:thistle;
+}
+
+.img-part{
+    margin-bottom: 1rem;
+}
+
+h3{
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+#job{
+    color:red;
+    margin-bottom: 1rem;
+}
+
+#info{
+    width: 50%;
+    font-size: 1rem;
+    word-spacing: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkolivegreen;
+    margin-bottom: 2rem;
+}
+
+button{
+    border: none;
+    background-color: thistle;
+}
+
+.arrows{
+    padding: 1rem;
+    color: lightseagreen;
+}
+
+.fas{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    color: lightseagreen
+}
+
+.fas:hover{
+    color: pink;
+}
+
+#randombtn{
+    margin-top: 1rem;
+    padding: 0.2rem 0.5rem;
+    border: 2px solid lightsalmon;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#randombtn:hover{
+    background-color: rgb(248, 181, 155);
+}
+
+#randombtn:active{
+    background-color: red;
+    /* color: white; */
+}
+
+img{
+    width: 13rem;
+    height: auto;
+    border-radius: 50%;
+    outline: 5px solid darkolivegreen;
+    box-shadow: 10px 10px 15px black;
+    /* outline-offset: 1rem; */
+} 
+
+p{
+    text-align: center;
+}
+
+
